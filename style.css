@@ -150,3 +150,104 @@ h2 span {
     color: 
 #888;
 }
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.head1{
+    background-color: #2E4F4F;
+    padding: 60px;
+}
+/* h1{
+    color:white;
+} */
+span{
+    color: #45FFCA;
+}
+.head2{
+    text-align: center;
+    padding:60px 0px 40px 0px;
+}
+.parkingSpaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px 0px 170px 0px;
+}
+.parkingSpaces > div {
+    height: 200px;
+    width: 300px;
+    border-radius: 6px;
+    background-color: #FFEFD6;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.bookin{
+    background-color:#2C3333;
+    padding:20px 0px 70px 0px;
+
+}
+.head3{
+    text-align: center;
+    padding:60px 0px 40px 0px;
+    color:white;
+}
+.mpesa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.payment{
+    width: 400px; 
+    height: 250px; 
+    /* background-color: white;  */
+    border:none;
+}
+.payment > input, button{
+    padding:10px;
+    border-radius:7px;
+}
+button {
+    padding:7px;
+    width:100%;
+    border: unset;
+    color: #212121;
+    z-index: 1;
+    background: #0c0b0b;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 7px;
+    background-color: #038862;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #f8f4f4;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
