@@ -1,4 +1,5 @@
 <?php
+/*
 session_start();
 
 // Unset all of the session variables.
@@ -17,4 +18,4 @@ if (ini_get("session.use_cookies")) {
 // Finally, destroy the session.
 session_destroy();
 header("Location: login.php");
-exit;
+exit; 

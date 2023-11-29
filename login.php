@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['logged_user_id'])) {
-    header('Location: home.php');
+    header('Location: parking_system.php');
     exit;
 }
 

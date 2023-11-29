@@ -1,9 +1,9 @@
 <?php
-session_start();
+/*session_start();
 session_regenerate_id(true);
 
 if(!isset($_SESSION['logged_user_id']) || empty($_SESSION['logged_user_id']) || !is_numeric($_SESSION['logged_user_id'])){
-    header('Location: logout.php');
+    header('Location: parking_system.php');
     exit;
 }
 require_once __DIR__ . "/db_connection.php";
